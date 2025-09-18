@@ -1,5 +1,24 @@
+# PDF Parser and JSON Extractor Dependencies
+# Python 3.7+ required
+
+# Core PDF processing libraries
 pdfplumber>=0.10.3
 PyMuPDF>=1.23.20
-camelot-py[cv]>=0.11.0
-pandas>=2.0.0
+
+# Table extraction libraries
+camelot-py>=1.0.9
+opencv-python>=4.8.0
 tabula-py>=2.8.2
+
+# Data processing
+pandas>=2.0.0
+
+# Additional utilities
+Pillow>=9.0.0
+
+# Optional: For enhanced text processing
+python-dateutil>=2.8.0
+
+# Note: Install camelot-py and opencv-python separately if you encounter issues:
+# pip install opencv-python
+# pip install camelot-py
